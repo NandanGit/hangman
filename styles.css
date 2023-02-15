@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	background-color: #333;
+	color: #ccc;
+
+	/* Centering everything */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
