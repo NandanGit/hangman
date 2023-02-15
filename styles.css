@@ -17,3 +17,27 @@ body {
 	align-items: center;
 	min-height: 100vh;
 }
+
+.answer-space {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 30rem;
+	/* margin: 0 auto; */
+	padding: 1rem;
+	background-color: #222;
+	border-radius: 0.5rem;
+}
+
+.answer-space .letter {
+	/* display: inline-block; */
+	width: 2rem;
+	height: 2rem;
+	margin: 0 0.5rem;
+	border: 1px solid #666;
+	border-radius: 0.25rem;
+	text-align: center;
+	line-height: 2rem;
+}
